@@ -1,3 +1,49 @@
+@font-face {
+  font-family: "holbie_font";
+  src: url("fonts/SourceSansPro-light.otf");
+}
+
+:root {
+  --smile-purple: #C271FF;
+}
+
 body {
-  background-color: aquamarine;
+  font-family: holbie_font;
+}
+
+.hero {
+  background-image: url("./images/pic_1.jpg");
+  background-position: center top;
+  background-repeat: no-repeat;
+  background-size: cover;
+  /* height: 100vmin; */
+}
+
+h1 {
+  font-size: 55px;
+}
+
+.btn {
+  border-color: var(--smile-purple);
+  background-color: var(--smile-purple);
+}
+
+.btn:hover,
+.btn:active,
+.btn:checked {
+  opacity: 0.9;
+  background-color: var(--smile-purple);
+  border-color: var(--smile-purple);
+}
+
+.text-light {
+  color: #C271FF !important;
+}
+
+.bg-dark {
+  background-color: #071629 !important;
+}
+
+.bg-light {
+  background-color: #C271FF !important;
 }
