@@ -19,6 +19,13 @@ body {
   /* height: 100vmin; */
 }
 
+.pricing {
+  background-image: url("./images/pic_2.jpg");
+  background-position: center top;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
 h1 {
   font-size: 65px;
 }
